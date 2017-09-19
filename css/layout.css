@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+body,nav,dl,dt,dd,p,h1,h2,h3,h4,ul,ol,li,input,button,textarea,footer {margin:0; padding:0}
+body {font:16px/1.5 'XinGothic-SinaWeibo','Microsoft Yahei','helvetica','arial'; color:#333; -webkit-text-size-adjust:none; background:#000 }
+h1,h2,h3,h4,h5,h6 {	font-size:100%;	margin:0;	padding:0;}
+form {	display:inline}
+ul,ol {	list-style:none}
+a {	text-decoration:none;	color:#000}
+a:hover {color:#1c5aa2;text-decoration:none}
+img {	vertical-align:middle;	border:0;	-ms-interpolation-mode:bicubic;	-webkit-tap-highlight-color:rgba(0,0,0,0)}
+button,input,select,textarea {font-size:100%;	vertical-align:middle;	outline:0;  font-family:"Microsoft Yahei"}
+textarea {	resize:none}
+button,input[type="button"],input[type="reset"],input[type="submit"] {cursor:pointer; -webkit-appearance:button; -moz-appearance:button;}
+input:focus:-moz-placeholder,input:focus::-webkit-input-placeholder {	color:transparent}
+button::-moz-focus-inner,input::-moz-focus-inner {	padding:0;	border:0}
+table {	border-collapse:collapse;	border-spacing:0}
+.fl {float:left}
+.fr {float:right}
+.hide {display:none}
+.thinkdiv{ background:rgba(0,0,0,0.8); width:100%; height:100%; position:fixed; top:0; left:0;}
+.position{ position:absolute;}
+
+.back,.back01,.back02,.back08,.back09,.back10,.back11,.back12,.back14{ background:url(../images/one_back.jpg) no-repeat; width:640px; height:1062px; margin:0 auto; position:relative;}
+
+/*页面1*/
+
+.back01{ background:#efce54}
+.zhaopai{ width:100%; top:11.73%; left:0}
+.guizi{ width:70%; left:15%; top:22.30%; z-index:11}
+.sheji_shenti,.chuangyi_shenti{ width:14%; left:26.25%; top:31.2%; z-index:9}
+.chuangyi_shenti{ width:14.6875%; left:38%; z-index:10;}
+.wenan_shenti{ width:14.53%; left:51.875%; top:31.2%; z-index:9}
+.zhezhao{ width:70.15%; left:15%; top:30.57%; z-index:12}
+.zhixing_shenti{ width:16.40%; right:0; top:35%;}
+.aeshenti{ width:34.68%; top:55%; right:5.625%; z-index:13}
+.aeshou,.aeshouer{ width:26.40%; top:71.6%; right:14%; z-index:14}
+.jinzhuone{ width:30.46%; bottom:0; left:5%;}
+.jinzhutwo{ width:53.28%; bottom:9%; left:10%; z-index:15;}
+.jinzhu_youshou{ width:13.6%; bottom:21%; left:14%; z-index:16}
+.aedh01,.aedh02{ width:32%; top:48%; left:50%; z-index:18};
+.aedh02{ width:30%;}
+.jzdh01{ width:37%; top:46%; left:11%; z-index:18;}
+.jzdh02{ width:30%; top:58%; left:0; z-index:14}
+
+/*页面1*/
+
+
+/*页面2*/
+
+.baisekuagn{ width:78%; right:0; top:0}
+.xinfeng{ width:37.34%; right:18%; top:9%}
+.muzhi{ width:6%; right:38.8%; top:24.8%; z-index:10}
+.xfsc{ width:35.35%; top:12.6%; right:18.8%; z-index:9}
+.xin{ width:28.43%; top:7.5%; right:25.5%; /*top:5.5%; right:26.5%  信封动效*/}
+
+.twoaeshenti{ width:71%; bottom:0; right:0; z-index:10}
+.twosaihong{ width:38.59%; left:28%; top:63%; z-index:11}
+.twohx{ width:5.78%; left:68%; top:64%; z-index:11}
+.twozb{ width:21%; left:38%; top:65.5%; z-index:11}
+.twodhk{ width:47%; left:1%; top:42%;  z-index:9}
+
+/*页面2*/
+
+
+.back02{background:url(../images/thre_back.jpg) no-repeat;}
+.heibai{ width:100%; top:0; left:0}
+.tr_hbworda{ width:15.3125%; top:24%; right:10%}
+.tr_hbwordb{ width:21%; top:3%; right:42%}
+.tr_hbwordc{ width:47%; top:12%; left:30%}
+.tr_hbwordd{ width:19%; top:4%; left:59%}
+.tr_hbworde{ width:26%; top:22%; left:38%}
+
+.tr_aest{ width:22%; top:21%; left:4%; z-index:10;}
+.tr_aeerduo{ width:10%; top:19%; left:3%;  z-index:9;}
+.tr_aezs{ width:5%; top:31.4%; left:5%; z-index:10;}
+.tr_aeys{ width:5%; top:30.2%; left:19%; z-index:9}
+.tr_aeqb{ width:9%; top:26%; left:23%; z-index:8}
+.tr_aeqjs{ width:14%; top:23%; left:23%; z-index:7}
+.tr_aeqter{ width:5%; top:18%; left:20%}
+.tr_aeqtyi{ width:4%; top:21%; left:23%}
+.tr_aesaihong{ width:14%; top:26.5%; left:8%; z-index:10}
+.tr_aezuiba{ width:4.5%; top:27.5%; left:12.5%; z-index:10}
+.tr_aezj{ width:4.5%; top:23.8%; left:15%; z-index:10}
+.tr_aedhk{ width:30%; top:8%; left:0%; z-index:10}
+
+.tr_sjyz{ width:21%; top:49%; left:13%; z-index:10}
+
+/*页面6*/
+
+.box{ background: url(../images/six-beijing2.png) no-repeat; width: 640px; height: 1062px; margin: 0 auto; position: relative;}
+.zuozi{ top: 39%; left: 37%;}
+.hou{ top: 3%; left: 31%}
+.qian{ top:7%; left: 39%}
+.chuangyisd{ top: 1%; left: 38%}
+.chuangyi{ top: 24.8%; left: 43%}
+.chuanyiss{ top: 37%; left: 45.5%}
+.shu{top: 13%; left: 37%}
+.shus{top: 22%; left: 48%}
+.huaju{top: 17%; left: 39%}
+.hwenhao{top: 20%; left: 60%}
+.bwenhao{top: 12.7%; left: 32%}
+.hua{top: 13%; left: 51%;}
+.lniao{top: 16%; left: 58%;}
+.yudian{top: 14%; left: 42%;}
+.lyun{top: 21%; left: 40%;}
+.byun{top: 13%; left: 62%;}
+.lzhi{top: 15%; left: 26%;}
+.rzhi{top: 18%; left: 68%;}
+.doupeng{top: 22%; left: 27%;}
+.shoubiao{top: 19%; left: 49%;}
+.sheji{top:62%; left: 5%}
+.xue{top: 63%; left: 26%;}
+.wenans{ top: 31%; left: 69%}
+.wenans-yz{top: 39%; left: 79%}
+.wenans-sd{top: 24%; left: 83%}
+.wenan{top: 34%; left: 12.5%}
+.wenan-yz{ top: 40%; left: 32%;}
+.wenan-mei{ top: 38.6%; left: 31%}
+.wenan-sd{top: 25%; left: 19%}
+.wenan-left{top: 46%; left: 23%}
+.wenan-right{top: 43%; left: 34%}
+.zhixing{top: 55%; left: 47.5%}
+.zhixing-yz{top: 64%; left: 64%}
+.you{top: 47%; left: 40%;}
+
+/*页面6*/
+
+/*页面7*/
+	.back01{ background:#efce54;overflow: hidden;}
+	.bj{top: 21%; left: 6%;}
+	.line{bottom: 0; height: 100%;}
+	.originality{left: 5%}
+	.text{top: 46.6%; left: 31%}
+
+	.zhixing{bottom: 0;right: 0;}/*执行*/
+	.han{bottom: 9.2%; right: 9%;}
+	.zj{bottom: 12%; right: 6.3%}
+	
+	.wan{bottom: 0; right: 20.5%;}/*文案*/
+	.zj2{bottom: 11%; right: 26%;}
+	.line2{bottom: 11.5%; right: 36.4%;}
+	.zui{bottom: 10%; right: 37.5%;}
+
+	.sheji{bottom: 0;}/*设计*/
+	.baozha{bottom: 7.5%; left: 20%;}
+	.zj3{bottom: 11%; right: 26%;}
+	.left{bottom: 7%; left: 12%;}
+	.right{bottom: 6%; left: 19.5%;}
+/*页面7*/
+
+/* 页面8 */
+.back08{background-image:url('../img/闪光白线.png');background-color:#efce54;}
+.backboard{top:8%;}
+.chun{width:40%;top:13.8%;left:15.3%;}
+.xia{width:40%;top:13.8%;left:56%;}
+.qiu{width:40%;top:24.5%;left:15.3%;}
+.dong{width:40%;top:26.5%;left:56%;}
+.shenti{width:40%;top:21%;}
+.zj{width:7%;top:37%;left:9%;z-index:99;}
+.suoyouren{width:60%;bottom:0;right:2%;z-index:50;}
+.xiong{width:30%;top:57.2%;right:11.8%;}
+.zhixing1{width:20%;bottom:0;right:2%;z-index:100;}
+.wenan1{width:20%;bottom:0;right:20%;z-index:90;}
+.sheji1{width:20%;bottom:0;right:37.5%;z-index:10;}
+.shou1,.shou2,.shou3{width: 5%;bottom:4%;right:16%;z-index: 99;}
+.shou2{right:34%;z-index:85 }
+.shou3{right:51%;z-index:5 }
+.zhenjing1,.zhenjing2,.zhenjing3{width: 5%;bottom:11%;left:46%;z-index:999;}
+.zhenjing2{left:64%;}
+.zhenjing3{left:83%;}
+.zhangsheng1,.zhangsheng2,.zhangsheng3{width:8%;bottom:6%;right:16%;z-index:95;}
+.zhangsheng2{right:34%;z-index:83}
+.zhangsheng3{right:53%;z-index:1}
+/* 页面8 */
+
+/* 页面9 */
+.back09{
+	background-color: #efce54;
+}
+.nine-wenan1{left: 47.2%;top: 1.7%;}
+.nine-text1 {left: 74%;top: 8.5%;}
+.nine-bg2{top: 27%;right: 0%;}
+.nine-wenan2{left: 32.6%;top: 26.8%;}
+.nine-text2 {left: 8.6%;top: 29.5%;}
+.nine-wenan3{left: 59.5%;top: 57%;z-index: 10;width: 34%;}
+.nine-text3 {left: 23.5%;top: 53.5%;width: 37.5%;}
+.nine-lefthand {left: 62%;top: 69%;z-index: 9;}
+.nine-righthand {left: 83%;top: 68.4%;z-index: 10;}
+.nine-yingzi {left: 62.8%;top: 72.5%;}
+.nine-text4 {left: 62%;top: 81%;z-index: 11;}
+.nine-wenan4 {left: 15%;top: 80.2%;z-index: 98;width: 50%;}
+.nine-qituan {left: 7%;top: 64%;width: 54%;z-index: 96;}
+/* 页面9 */
+
+/* 页面10 */
+
+.back10{background:url(../images/ten_MentalDisease.jpg) no-repeat;}
+.ten_autocratic{ width:77.6%; top:40.8%; left:-14%; z-index:10;}
+.ten_originality{ width:64.6%; top:53.6%; left:24%; z-index:10;}
+.ten_text{ width:14%; top:15%; right:5%; z-index:10;}
+
+/* 页面10 */
+
+/* 页面11 */
+.back11{background:url(../images/eleven_back.jpg) no-repeat;overflow: hidden;}
+.el_xx{width: 100%;height:100%;top: 0;left: 0;}
+.el_txt{width: 94%;top: 23%;left: 3%;}
+.el_txt1{width: 61%;top: 27%;left: 22%;}
+.el_sheji{width: 48%;top: 44%;left: 47%;}
+.el_plian{width: 40%;top: 56%;left: 11.25%;}
+.el_blood{width: 28.4%;top: 69.45%;left: 0;}
+/* 页面11 */
+
+
+/*页面12*/
+
+.back12{background:url(../images/twelve_banner.jpg) no-repeat;}
+.twelve_duihua{width: 58.4%; top:2%; left: 33.4%;}
+.twelve_shi{width: 30%; top:16%; left: 47%;}
+.twelve_shiqi{width: 9%; top:11%; left: 56%;}
+.twelve_xian{width: 99.5%;}
+.twelve_wen{width: 32%; top: 52%; left: 4%; z-index: 10;}
+.twelve_youchi{width: 52%; top: 78%; left: 17%; z-index:11;}
+.twelve_zuochi{width: 39%; top: 59%; left: -23%; z-index: 11;}
+.twelve_sheji{width:48%; top:65%; left: -3%; z-index:10;}
+.twelve_jiao1{width: 14%; top: 54%; left: 32%; z-index: 10;}
+.twelve_jiao2{width: 14%; top: 57%; left: 35%; z-index: 10;}
+.twelve_duihua2{width:85%; top:44%; left: -20%; z-index:9;}
+.twelve_duihua3{width:32%; top:52%; right: 6.4%; z-index:8;}
+.twelve_zhixing{width: 19.5%; top: 74%; right: 0; z-index: 10;}
+.twelve_zuoer{width: 4%; top: 73.5%; right: 4%; z-index: 8}
+.twelve_youer{width: 6%; top: 74%; right: -1%; z-index: 8}
+.twelve_youshou{width: 4%; top: 87%; right: 3.4%; z-index: 10}
+.twelve_zuoshou{width: 4%; top: 87%; right: 7%; z-index: 10}
+.twelve_wenan{width: 22.65%; top: 74%; right: 14%; z-index: 9;}
+.twelve_zuoer2{width:4%; top: 73.5%; right: 21%; z-index: 8}
+.twelve_youer2{width: 6%; top: 73.5%; right: 16%; z-index: 8}
+.twelve_youshou2{width: 4%; top: 87%; right: 20.4%; z-index: 10}
+.twelve_zuoshou2{width: 4%; top: 87%; right: 24%; z-index: 10}
+
+/*页面12*/
+
+/*页面14*/
+.back14{ background:#efce54}
+.blue{ width:100%; top:0; left:0}
+.line{ width:100%; top:0; left:0}
+.yuebing{width:35%;top: 8%;left: 30%}
+.star011{ width:6%; top:6%; left:30%}
+.star012{ width:6%; top:4%; left:44%}
+.star013{ width:6%; top:9%; left:62%}
+.star014{ width:6%; top:16%; left:66%}
+.star015{ width:6%; top:23%; left:52%}
+.star016{ width:6%; top:10%; left:27%}
+
+.duihua01{ width:42%; top:13%; left:10%}
+.jinzhu{ width:48%; top:29%; left:3%}
+.money{ width:8%; top:40%; left:46%}
+.star021{ width:3%; top:39%; left:43%}
+.star022{ width:3%; top:40%; left:47%}
+.star023{ width:3%; top:38.2%; left:50%}
+.star024{ width:3%; top:41.8%; left:52.6%}
+.star025{ width:3%; top:44%; left:50%}
+.star026{ width:3%; top:42.2%; left:43.6%}
+
+.duihua02{ width:34%; top:26%; left:60%}
+.ae{ width:34%; top:39%; left:58%}
+.btn{ width:42%; top:68%; left:31%}
+
+/*页面14*/
